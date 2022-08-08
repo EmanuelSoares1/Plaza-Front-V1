@@ -1,0 +1,35 @@
+.footer{
+  overflow: hidden;
+  background-color: rgb(201, 181, 152);
+  padding: 40px 20px;
+  position: sticky;
+  top: 100%;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.row{
+  display: flex;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: bold;
+}
+a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+a:hover{
+  color: brown;
+}
+i{
+  padding: 4px 8px;
+  width: 100px;
+  font-weight: bold
+}

@@ -1,0 +1,17 @@
+.navbar-light .navbar-nav .nav-link.active-link{
+  color: var(--primeira-color);
+  font-weight: bold;
+  background-color: rgb(187, 37, 37);
+}
+.container-fluid{
+  margin-top: -10px;
+  padding: 15px 10px;
+  background-color: rgb(255, 101, 101);
+}
+a{
+  color: white;
+  font-weight: bold;
+}
+a:hover{
+  color: rgb(255, 197, 110);
+}
