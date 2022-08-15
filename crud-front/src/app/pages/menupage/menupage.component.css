@@ -1,0 +1,9 @@
+.container{
+  position: relative;
+  margin: center;
+}
+form{
+  margin-top: 5%;
+  width: 70%;
+  padding: 10px 5px;
+}

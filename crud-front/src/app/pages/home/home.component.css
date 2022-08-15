@@ -1,3 +1,79 @@
 .banner{
-  background-image: url(/crud-front/src/assets/img/indexPlaza.gif);
+  background-image: url(../../../assets/img/indexPlaza.gif);
+  top: -10px;
+  height: 100%;
+  width: 100%;
+  background-position: center top;
+  background-size: cover;
+}
+
+.content{
+  position: absolute;
+  width: 35%;
+  top: 40%;
+  left: 5%;
+}
+.content h1{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+.content a{
+  text-decoration: none;
+  background-color: brown;
+  padding: 12px 20px;
+  border-radius: 12px;
+  width: 80px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+.content a:hover{
+  color: brown;
+  background-color: rgb(201, 181, 152);
+}
+
+.box{
+  background-color: rgb(122, 122, 122);
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+}
+.row{
+  display: flex;
+}
+.box h1{
+  font-size: 30px;
+  color: rgb(201, 181, 152);
+
+}
+.box p{
+  font-size: 20px;
+  color: white;
+}
+.foodbox{
+  padding: 10px 5px;
+}
+.foodbox img{
+  
+  object-fit: cover;
+  border-radius: 10px;
+}
+.foodbox h1{
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.maisopcoes{
+  text-decoration: none;
+  background-color: rgb(255, 187, 0);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 20px;
 }

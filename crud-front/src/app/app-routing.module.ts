@@ -1,3 +1,4 @@
+import { MenupageComponent } from './pages/menupage/menupage.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContatoComponent } from './pages/contato/contato.component';
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path: 'menu', component:MenuComponent},
   {path: 'sobre', component:SobreComponent},
   {path: 'contato', component:ContatoComponent},
+  {path: 'menu/:id', component:MenupageComponent},
 ];
 
 @NgModule({

@@ -1,1 +1,16 @@
-<p>menu works!</p>
+<div class="container mt-5 mb-5">
+  <h1 class="text-center"> Cardápio de Pizzas</h1>
+  <div class="row">
+    <div class="col-lg-4" *ngFor="let fd of foodData">
+    <img src="{{fd.foodImg}}" width="350" height="300"/>
+    <h1>{{fd.foodName}}</h1>
+    <p>{{fd.foodDetails}}</p>
+    <p>{{fd.foodPrice |currency:'BRL'}}</p>
+    <!-- pesquisa o id la em details e puxa pra single  -->
+    <a [routerLink]="['/menu',fd.id]" class="pedido" >Fazer Pedido</a>
+  </div>
+  </div>
+
+
+
+</div>
